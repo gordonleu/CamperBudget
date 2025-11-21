@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Artikel rund um Vanlife &amp; Finanzen – CamperBudget</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Kurz und fokussiert: Artikel zu Vanlife-Kosten, günstigen Routen, Länderunterschieden und Spartipps." />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+<header>
+  <nav class="nav">
+    <div class="logo-wrap">
+      <div class="logo-icon"><span></span></div>
+      <div class="logo-text">CamperBudget</div>
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html">Start</a>
+      <a href="rechner.html">Rechner</a>
+      <a href="checklisten.html">Checklisten</a>
+      <a href="equipment.html">Equipment</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="rechner.html" class="nav-cta">Kosten berechnen</a>
+    </div>
+
+    <div class="nav-mobile-toggle" onclick="toggleMobileMenu()">☰</div>
+  </nav>
+</header>
+
+<div id="mobileMenu" class="mobile-menu">
+  <button class="close-mobile" onclick="toggleMobileMenu()">✕</button>
+  <a href="index.html" onclick="toggleMobileMenu()">Start</a>
+  <a href="rechner.html" onclick="toggleMobileMenu()">Rechner</a>
+  <a href="checklisten.html" onclick="toggleMobileMenu()">Checklisten</a>
+  <a href="equipment.html" onclick="toggleMobileMenu()">Equipment</a>
+  <a href="artikel.html" onclick="toggleMobileMenu()">Artikel</a>
+  <a href="rechner.html" class="nav-cta" onclick="toggleMobileMenu()">Kosten berechnen</a>
+</div>
+<main class="wrapper">
+  <section>
+    <div class="section-kicker">Artikel</div>
+    <h1 class="section-title">Vanlife, aber bitte mit Zahlen.</h1>
+    <p class="section-subtitle">
+      Alle Artikel drehen sich um Kosten, Budget und Optimierung – keine endlosen
+      Erlebnisberichte, sondern konkrete Erkenntnisse, die dir bei Entscheidungen helfen.
+    </p>
+  </section>
+
+  <section>
+    <div class="blog-grid">
+      <div class="card">
+        <div class="blog-card-date">Strecken &amp; Länder</div>
+        <h3>Was ist die günstigste Route nach Spanien?</h3>
+        <p>Direkt durch Frankreich, über Fähren oder mit mehr Landstraße? Wir vergleichen
+        Diesel, Maut und Übernachtungen.</p>
+        <p style="margin-top:0.7rem;"><a href="article_spanien.html">Artikel lesen →</a></p>
+      </div>
+      <div class="card">
+        <div class="blog-card-date">Budgetplanung</div>
+        <h3>Vanlife mit 1.000 €, 1.500 € oder 2.000 €?</h3>
+        <p>Wie fühlt sich der Alltag mit unterschiedlichen Budgets an – und wo liegen die
+        typischen Grenzen?</p>
+      </div>
+      <div class="card">
+        <div class="blog-card-date">Energie &amp; Heizen</div>
+        <h3>Heizstrategien im Winter – und was sie kosten.</h3>
+        <p>Gas, Diesel, Strom &amp; Hybridlösungen im Vergleich – nicht nur technisch, sondern
+        auch finanziell.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+  © <span id="year"></span> CamperBudget – Finanzen im Vanlife im Griff.
+</footer>
+</main>
+<script src="main.js"></script>
+</body>
+</html>

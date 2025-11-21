@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Finanz-Checklisten für Vanlife – CamperBudget</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Checklisten für Vanlife-Finanzen: Kostenfallen vermeiden, Budget planen, Versicherungen & Rücklagen im Blick behalten." />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+<header>
+  <nav class="nav">
+    <div class="logo-wrap">
+      <div class="logo-icon"><span></span></div>
+      <div class="logo-text">CamperBudget</div>
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html">Start</a>
+      <a href="rechner.html">Rechner</a>
+      <a href="checklisten.html">Checklisten</a>
+      <a href="equipment.html">Equipment</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="rechner.html" class="nav-cta">Kosten berechnen</a>
+    </div>
+
+    <div class="nav-mobile-toggle" onclick="toggleMobileMenu()">☰</div>
+  </nav>
+</header>
+
+<div id="mobileMenu" class="mobile-menu">
+  <button class="close-mobile" onclick="toggleMobileMenu()">✕</button>
+  <a href="index.html" onclick="toggleMobileMenu()">Start</a>
+  <a href="rechner.html" onclick="toggleMobileMenu()">Rechner</a>
+  <a href="checklisten.html" onclick="toggleMobileMenu()">Checklisten</a>
+  <a href="equipment.html" onclick="toggleMobileMenu()">Equipment</a>
+  <a href="artikel.html" onclick="toggleMobileMenu()">Artikel</a>
+  <a href="rechner.html" class="nav-cta" onclick="toggleMobileMenu()">Kosten berechnen</a>
+</div>
+<main class="wrapper">
+  <section>
+    <div class="section-kicker">Checklisten</div>
+    <h1 class="section-title">Finanzen im Griff – Schritt für Schritt.</h1>
+    <p class="section-subtitle">
+      Hier geht es nicht darum, ob du die Zahnbürste eingepackt hast – sondern ob dein
+      Vanlife finanziell sauber aufgestellt ist.
+    </p>
+  </section>
+
+  <section>
+    <div class="checklist">
+      <h3>Basis-Finanzsetup für Vanlife</h3>
+      <div class="checklist-item">
+        <input type="checkbox" />
+        <div>Monatsbudget definiert (z. B. 1.500 €) und gegen reale Kosten gegengecheckt.</div>
+      </div>
+      <div class="checklist-item">
+        <input type="checkbox" />
+        <div>Puffer für unerwartete Reparaturen (mind. 1–2 Monatsbudgets) vorhanden.</div>
+      </div>
+      <div class="checklist-item">
+        <input type="checkbox" />
+        <div>Krankenversicherung / Auslandsschutz geklärt (inkl. Langzeitaufenthalte).</div>
+      </div>
+      <div class="checklist-item">
+        <input type="checkbox" />
+        <div>Rücklage für Rückreise / „Plan B“ vorhanden.</div>
+      </div>
+    </div>
+
+    <div class="checklist">
+      <h3>Kostenfallen auf Langzeitreisen</h3>
+      <div class="checklist-item">
+        <input type="checkbox" />
+        <div>Mautsysteme der geplanten Länder verstanden (Telepass, Vignette, Streckenmaut).</div>
+      </div>
+      <div class="checklist-item">
+        <input type="checkbox" />
+        <div>Dieselpreis-Unterschiede je Land berücksichtigt (z. B. Tanken vor Grenze).</div>
+      </div>
+      <div class="checklist-item">
+        <input type="checkbox" />
+        <div>Datenvolumen-Ausland &amp; Fair-Use-Regeln geprüft – keine bösen Roaming-Überraschungen.</div>
+      </div>
+      <div class="checklist-item">
+        <input type="checkbox" />
+        <div>Gasversorgung (Adapter, Füllstellen, Tauschsysteme) je Land geplant.</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+  © <span id="year"></span> CamperBudget – Finanzen im Vanlife im Griff.
+</footer>
+</main>
+<script src="main.js"></script>
+</body>
+</html>

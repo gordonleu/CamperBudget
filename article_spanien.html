@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Was ist die günstigste Route nach Spanien? – CamperBudget</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Ein finanzieller Blick auf verschiedene Routen von Deutschland nach Spanien: Maut, Diesel, Übernachtungen und versteckte Kosten." />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+<header>
+  <nav class="nav">
+    <div class="logo-wrap">
+      <div class="logo-icon"><span></span></div>
+      <div class="logo-text">CamperBudget</div>
+    </div>
+
+    <div class="nav-links">
+      <a href="index.html">Start</a>
+      <a href="rechner.html">Rechner</a>
+      <a href="checklisten.html">Checklisten</a>
+      <a href="equipment.html">Equipment</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="rechner.html" class="nav-cta">Kosten berechnen</a>
+    </div>
+
+    <div class="nav-mobile-toggle" onclick="toggleMobileMenu()">☰</div>
+  </nav>
+</header>
+
+<div id="mobileMenu" class="mobile-menu">
+  <button class="close-mobile" onclick="toggleMobileMenu()">✕</button>
+  <a href="index.html" onclick="toggleMobileMenu()">Start</a>
+  <a href="rechner.html" onclick="toggleMobileMenu()">Rechner</a>
+  <a href="checklisten.html" onclick="toggleMobileMenu()">Checklisten</a>
+  <a href="equipment.html" onclick="toggleMobileMenu()">Equipment</a>
+  <a href="artikel.html" onclick="toggleMobileMenu()">Artikel</a>
+  <a href="rechner.html" class="nav-cta" onclick="toggleMobileMenu()">Kosten berechnen</a>
+</div>
+<main class="wrapper">
+  <section>
+    <div class="section-kicker">Artikel</div>
+    <h1 class="section-title">Was ist die günstigste Route nach Spanien?</h1>
+    <p class="section-subtitle">
+      Spanien ist für viele Vanlifer das Traumziel für den Winter. Aber wie kommst du
+      möglichst günstig dort hin – und lohnt sich eine mautfreie Route überhaupt?
+    </p>
+  </section>
+
+  <section>
+    <div class="card">
+      <h3>Die drei typischen Optionen</h3>
+      <p>Wenn du von Deutschland nach Spanien fährst, landen die meisten grob in einer von drei Kategorien:</p>
+      <ul>
+        <li><strong>Variante A:</strong> Durch Frankreich über Autobahnen mit Maut</li>
+        <li><strong>Variante B:</strong> Möglichst mautfrei (Landstraße, nationale Straßen)</li>
+        <li><strong>Variante C:</strong> Kombination &amp; Fähre (z. B. Nordspanien-Fähre)</li>
+      </ul>
+      <p>Welche Variante finanziell am sinnvollsten ist, hängt vor allem von Fahrprofil, Zeit und Verbrauch ab.</p>
+    </div>
+
+    <div class="card">
+      <h3>Maut vs. Diesel – der Grundkonflikt</h3>
+      <p>
+        Mautstrecken sind meist direkter und schneller, sparen aber nicht automatisch
+        Geld: du zahlst zwar weniger Diesel (weil weniger Kilometer und oft gleichmäßigeres
+        Tempo), aber Maut summiert sich gerade in Frankreich schnell.
+      </p>
+      <p>
+        Wenn du es nicht eilig hast und ein moderater Verbrauch (z. B. 9–11 l/100 km)
+        hast, kann eine etwas langsamere, aber mautarme Route oft günstiger sein – vor
+        allem, wenn du Übernachtungen clever planst.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Eine pragmatische Empfehlung</h3>
+      <p>
+        Für die meisten Vanlifer, die nicht jeden Euro umdrehen müssen, aber auch nicht
+        unnötig Geld verbrennen wollen, lohnt sich oft eine <strong>Mischroute</strong>:
+      </p>
+      <ul>
+        <li>Mautarme Abschnitte dort, wo Autobahngebühren hoch sind,</li>
+        <li>bewusste Mautnutzung rund um Ballungsräume oder nervige Landstraßenabschnitte,</li>
+        <li>gezieltes Tanken in günstigeren Regionen (z. B. kurz vor oder nach Grenzen).</li>
+      </ul>
+      <p>
+        Mit dem CamperBudget-Rechner kannst du dein eigenes Setup nachbilden: geschätzte
+        Kilometer, Verbrauch und Spritpreis eintragen – und dann schauen, was z. B. 200 km
+        mehr ohne Maut im Vergleich zu 50 € Maut wirklich bedeuten.
+      </p>
+    </div>
+
+    <p style="font-size:0.9rem;color:#6B7280;margin-top:1rem;">
+      Hinweis: Konkrete Zahlen hängen stark von deinem Fahrzeug, deinem Fahrstil und der
+      gewählten Route ab. Dieser Artikel soll dir helfen, das Thema <strong>bewusst</strong> zu betrachten
+      – die genaue Rechnung machst du am besten mit deinem CamperBudget-Setup.
+    </p>
+  </section>
+
+  <footer>
+  © <span id="year"></span> CamperBudget – Finanzen im Vanlife im Griff.
+</footer>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
